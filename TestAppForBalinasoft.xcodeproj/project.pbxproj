@@ -13,6 +13,20 @@
 		4424406A2AC064660090279B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442440682AC064660090279B /* Main.storyboard */; };
 		4424406C2AC064670090279B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4424406B2AC064670090279B /* Assets.xcassets */; };
 		4424406F2AC064670090279B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4424406D2AC064670090279B /* LaunchScreen.storyboard */; };
+		442440772AC064EC0090279B /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440762AC064EC0090279B /* Builder.swift */; };
+		442440792AC065070090279B /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440782AC065070090279B /* BuilderProtocol.swift */; };
+		4424407B2AC065470090279B /* PhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424407A2AC065470090279B /* PhotoPickerManager.swift */; };
+		4424407D2AC065640090279B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424407C2AC065640090279B /* PhotoViewController.swift */; };
+		4424407F2AC0657C0090279B /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424407E2AC0657C0090279B /* LoadingCell.swift */; };
+		442440812AC065930090279B /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440802AC065930090279B /* PhotoTableViewCell.swift */; };
+		442440832AC065A80090279B /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440822AC065A80090279B /* PhotoViewModel.swift */; };
+		442440852AC065C10090279B /* PhotoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440842AC065C10090279B /* PhotoViewModelProtocol.swift */; };
+		442440872AC065D60090279B /* ImagePostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440862AC065D60090279B /* ImagePostRequest.swift */; };
+		442440892AC065EE0090279B /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442440882AC065EE0090279B /* PageModel.swift */; };
+		4424408B2AC0660A0090279B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424408A2AC0660A0090279B /* NetworkService.swift */; };
+		4424408D2AC066230090279B /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424408C2AC066230090279B /* NetworkServiceProtocol.swift */; };
+		4424408F2AC066390090279B /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4424408E2AC066390090279B /* EndPointType.swift */; };
+		F7BE4DE15DCF995A11BA2D81 /* Pods_TestAppForBalinasoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC8D8DEA01A2655257132CA /* Pods_TestAppForBalinasoft.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,22 @@
 		4424406B2AC064670090279B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4424406E2AC064670090279B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442440702AC064670090279B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442440762AC064EC0090279B /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		442440782AC065070090279B /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		4424407A2AC065470090279B /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
+		4424407C2AC065640090279B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		4424407E2AC0657C0090279B /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		442440802AC065930090279B /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		442440822AC065A80090279B /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		442440842AC065C10090279B /* PhotoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModelProtocol.swift; sourceTree = "<group>"; };
+		442440862AC065D60090279B /* ImagePostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePostRequest.swift; sourceTree = "<group>"; };
+		442440882AC065EE0090279B /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		4424408A2AC0660A0090279B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4424408C2AC066230090279B /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		4424408E2AC066390090279B /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		DA285F3ECCD2A3C026A6963F /* Pods-TestAppForBalinasoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppForBalinasoft.release.xcconfig"; path = "Target Support Files/Pods-TestAppForBalinasoft/Pods-TestAppForBalinasoft.release.xcconfig"; sourceTree = "<group>"; };
+		E8D5D93CA85EB20539AB2BD5 /* Pods-TestAppForBalinasoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppForBalinasoft.debug.xcconfig"; path = "Target Support Files/Pods-TestAppForBalinasoft/Pods-TestAppForBalinasoft.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC8D8DEA01A2655257132CA /* Pods_TestAppForBalinasoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestAppForBalinasoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BE4DE15DCF995A11BA2D81 /* Pods_TestAppForBalinasoft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13211EEF51031B4DAE25DE92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8D8DEA01A2655257132CA /* Pods_TestAppForBalinasoft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		442440562AC064660090279B = {
 			isa = PBXGroup;
 			children = (
 				442440612AC064660090279B /* TestAppForBalinasoft */,
 				442440602AC064660090279B /* Products */,
+				B7CD4D5146B122F9703D9B46 /* Pods */,
+				13211EEF51031B4DAE25DE92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +104,30 @@
 				4424406B2AC064670090279B /* Assets.xcassets */,
 				4424406D2AC064670090279B /* LaunchScreen.storyboard */,
 				442440702AC064670090279B /* Info.plist */,
+				442440762AC064EC0090279B /* Builder.swift */,
+				442440782AC065070090279B /* BuilderProtocol.swift */,
+				4424407A2AC065470090279B /* PhotoPickerManager.swift */,
+				4424407C2AC065640090279B /* PhotoViewController.swift */,
+				4424407E2AC0657C0090279B /* LoadingCell.swift */,
+				442440802AC065930090279B /* PhotoTableViewCell.swift */,
+				442440822AC065A80090279B /* PhotoViewModel.swift */,
+				442440842AC065C10090279B /* PhotoViewModelProtocol.swift */,
+				442440862AC065D60090279B /* ImagePostRequest.swift */,
+				442440882AC065EE0090279B /* PageModel.swift */,
+				4424408A2AC0660A0090279B /* NetworkService.swift */,
+				4424408C2AC066230090279B /* NetworkServiceProtocol.swift */,
+				4424408E2AC066390090279B /* EndPointType.swift */,
 			);
 			path = TestAppForBalinasoft;
+			sourceTree = "<group>";
+		};
+		B7CD4D5146B122F9703D9B46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5D93CA85EB20539AB2BD5 /* Pods-TestAppForBalinasoft.debug.xcconfig */,
+				DA285F3ECCD2A3C026A6963F /* Pods-TestAppForBalinasoft.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 442440732AC064670090279B /* Build configuration list for PBXNativeTarget "TestAppForBalinasoft" */;
 			buildPhases = (
+				F87937215D03F43C0C3D88F2 /* [CP] Check Pods Manifest.lock */,
 				4424405B2AC064660090279B /* Sources */,
 				4424405C2AC064660090279B /* Frameworks */,
 				4424405D2AC064660090279B /* Resources */,
+				7B91B0D3CAFCC4DD6F4733F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +198,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B91B0D3CAFCC4DD6F4733F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppForBalinasoft/Pods-TestAppForBalinasoft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestAppForBalinasoft/Pods-TestAppForBalinasoft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestAppForBalinasoft/Pods-TestAppForBalinasoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87937215D03F43C0C3D88F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestAppForBalinasoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4424405B2AC064660090279B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4424408F2AC066390090279B /* EndPointType.swift in Sources */,
+				4424407B2AC065470090279B /* PhotoPickerManager.swift in Sources */,
+				442440792AC065070090279B /* BuilderProtocol.swift in Sources */,
+				4424407F2AC0657C0090279B /* LoadingCell.swift in Sources */,
 				442440672AC064660090279B /* ViewController.swift in Sources */,
 				442440632AC064660090279B /* AppDelegate.swift in Sources */,
+				442440812AC065930090279B /* PhotoTableViewCell.swift in Sources */,
+				4424408B2AC0660A0090279B /* NetworkService.swift in Sources */,
+				4424407D2AC065640090279B /* PhotoViewController.swift in Sources */,
+				442440872AC065D60090279B /* ImagePostRequest.swift in Sources */,
+				442440892AC065EE0090279B /* PageModel.swift in Sources */,
 				442440652AC064660090279B /* SceneDelegate.swift in Sources */,
+				442440852AC065C10090279B /* PhotoViewModelProtocol.swift in Sources */,
+				442440772AC064EC0090279B /* Builder.swift in Sources */,
+				442440832AC065A80090279B /* PhotoViewModel.swift in Sources */,
+				4424408D2AC066230090279B /* NetworkServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +323,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +386,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +407,7 @@
 		};
 		442440742AC064670090279B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D5D93CA85EB20539AB2BD5 /* Pods-TestAppForBalinasoft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +421,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,14 +429,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestAppForBalinasoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		442440752AC064670090279B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA285F3ECCD2A3C026A6963F /* Pods-TestAppForBalinasoft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +462,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestAppForBalinasoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
