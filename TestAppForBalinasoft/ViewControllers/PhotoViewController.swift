@@ -14,7 +14,7 @@ final class PhotoViewController: UIViewController {
     private lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
-        refreshControl.attributedTitle = NSAttributedString(string: "Refreshing")
+        refreshControl.attributedTitle = NSAttributedString(string: "Обновляю")
         return refreshControl
     }()
 
@@ -173,8 +173,8 @@ private extension PhotoViewController {
 private extension PhotoViewController {
     func displaySuccess(messageId: String) {
         DispatchQueue.main.async {
-            let alert = UIAlertController(title: "Успех", message: "ID: \(messageId)", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Окей", style: .default, handler: nil))
+            let alert = UIAlertController(title: "Успешно", message: "ID: \(messageId)", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ок", style: .default, handler: nil))
       
             self.present(alert, animated: true, completion: nil)
         }
@@ -185,7 +185,7 @@ private extension PhotoViewController {
     func handleAPIError(_ errorMessage: String) {
         DispatchQueue.main.async {
             let alert = UIAlertController(title: "Ошибка", message: errorMessage, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Окей", style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "Ок", style: .default, handler: nil))
       
             self.present(alert, animated: true, completion: nil)
         }
@@ -194,7 +194,7 @@ private extension PhotoViewController {
 
 private extension PhotoViewController {
     func showPhotoAlert(image: UIImage, id: Int) {
-        let name = "Siarhei Dubko"
+        let name = "Дубко Сергей Александрович"
         let alertController = UIAlertController(title: name, message: "id: \(id)", preferredStyle: .alert)
     
         let image = image
@@ -202,7 +202,7 @@ private extension PhotoViewController {
         imageView.frame = CGRect(x: 10, y: 10, width: 50, height: 50)
         alertController.view.addSubview(imageView)
     
-        let sendAction = UIAlertAction(title: "Send", style: .default) { _ in
+        let sendAction = UIAlertAction(title: "Отправить", style: .default) { _ in
             if let data = image.jpegData(compressionQuality: 0.8) {
                 let model = ImagePostRequest(name: name, photo: data, typeId: id)
                 self.activityIndicator.startAnimating()
@@ -214,7 +214,7 @@ private extension PhotoViewController {
                 }
             }
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel, handler: nil)
         alertController.addAction(sendAction)
         alertController.addAction(cancelAction)
     
