@@ -97,28 +97,76 @@
 		442440612AC064660090279B /* TestAppForBalinasoft */ = {
 			isa = PBXGroup;
 			children = (
+				44F414352AC06FF20028C49A /* Protocol */,
+				44F414342AC06FCE0028C49A /* ViewControllers */,
+				44F414332AC06F990028C49A /* Service */,
+				44F414322AC06F560028C49A /* Helper */,
+				44F414312AC06EF10028C49A /* CellOnApp */,
+				44F414302AC06E8A0028C49A /* Models */,
 				442440622AC064660090279B /* AppDelegate.swift */,
 				442440642AC064660090279B /* SceneDelegate.swift */,
-				442440662AC064660090279B /* ViewController.swift */,
 				442440682AC064660090279B /* Main.storyboard */,
 				4424406B2AC064670090279B /* Assets.xcassets */,
 				4424406D2AC064670090279B /* LaunchScreen.storyboard */,
 				442440702AC064670090279B /* Info.plist */,
-				442440762AC064EC0090279B /* Builder.swift */,
-				442440782AC065070090279B /* BuilderProtocol.swift */,
-				4424407A2AC065470090279B /* PhotoPickerManager.swift */,
-				4424407C2AC065640090279B /* PhotoViewController.swift */,
-				4424407E2AC0657C0090279B /* LoadingCell.swift */,
-				442440802AC065930090279B /* PhotoTableViewCell.swift */,
-				442440822AC065A80090279B /* PhotoViewModel.swift */,
-				442440842AC065C10090279B /* PhotoViewModelProtocol.swift */,
-				442440862AC065D60090279B /* ImagePostRequest.swift */,
-				442440882AC065EE0090279B /* PageModel.swift */,
-				4424408A2AC0660A0090279B /* NetworkService.swift */,
-				4424408C2AC066230090279B /* NetworkServiceProtocol.swift */,
-				4424408E2AC066390090279B /* EndPointType.swift */,
 			);
 			path = TestAppForBalinasoft;
+			sourceTree = "<group>";
+		};
+		44F414302AC06E8A0028C49A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				442440822AC065A80090279B /* PhotoViewModel.swift */,
+				442440882AC065EE0090279B /* PageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44F414312AC06EF10028C49A /* CellOnApp */ = {
+			isa = PBXGroup;
+			children = (
+				4424407E2AC0657C0090279B /* LoadingCell.swift */,
+				442440802AC065930090279B /* PhotoTableViewCell.swift */,
+			);
+			path = CellOnApp;
+			sourceTree = "<group>";
+		};
+		44F414322AC06F560028C49A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4424407A2AC065470090279B /* PhotoPickerManager.swift */,
+				442440762AC064EC0090279B /* Builder.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		44F414332AC06F990028C49A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4424408A2AC0660A0090279B /* NetworkService.swift */,
+				4424408E2AC066390090279B /* EndPointType.swift */,
+				442440862AC065D60090279B /* ImagePostRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		44F414342AC06FCE0028C49A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4424407C2AC065640090279B /* PhotoViewController.swift */,
+				442440662AC064660090279B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44F414352AC06FF20028C49A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4424408C2AC066230090279B /* NetworkServiceProtocol.swift */,
+				442440842AC065C10090279B /* PhotoViewModelProtocol.swift */,
+				442440782AC065070090279B /* BuilderProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		B7CD4D5146B122F9703D9B46 /* Pods */ = {
@@ -338,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -395,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

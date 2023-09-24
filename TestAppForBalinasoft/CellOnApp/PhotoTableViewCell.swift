@@ -44,8 +44,8 @@ final class PhotoTableViewCell: UITableViewCell {
 
   func configure(model: Content) {
     nameLabel.text = model.name
-    guard let imageURL = URL(string: model.image ?? "noImage") else { return }
-    image.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "noImage.png"))
+    guard let imageURL = URL(string: model.image ?? "no-image") else { return }
+    image.sd_setImage(with: imageURL, placeholderImage: UIImage(named: "no-image"))
 
   }
 }
