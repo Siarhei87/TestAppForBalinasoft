@@ -8,7 +8,7 @@
 import Foundation
 
 struct ImagePostRequest: Codable {
-  let name: String
-  let photo: Data
-  let typeId: Int
+    let name: String
+    let photo: Data
+    let typeId: Int
 }

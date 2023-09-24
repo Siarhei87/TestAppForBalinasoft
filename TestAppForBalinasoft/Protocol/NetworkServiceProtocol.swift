@@ -8,6 +8,6 @@
 import Foundation
 
 protocol NetworkServiceProtocol {
-  func getPhotoTypes(currentPage: String, completion: @escaping (Result<PageModel, Error>) -> Void)
-  func postRequest(contentModel: ImagePostRequest, completion: @escaping (String, Bool) -> Void)
+    func getPhotoTypes(currentPage: String, completion: @escaping (Result<PageModel, Error>) -> Void)
+    func postRequest(contentModel: ImagePostRequest, completion: @escaping (String, Bool) -> Void)
 }

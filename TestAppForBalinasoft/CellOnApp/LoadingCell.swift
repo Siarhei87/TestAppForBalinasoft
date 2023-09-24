@@ -9,34 +9,28 @@ import Foundation
 import UIKit
 
 final class LoadingCell: UITableViewCell {
+    let activityIndicator = UIActivityIndicatorView()
 
-  //MARK: - Property
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setConstraints()
+    }
 
-  let activityIndicator = UIActivityIndicatorView()
-
-  //MARK: - Init
-
-  override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-    super.init(style: style, reuseIdentifier: reuseIdentifier)
-    setConstraints()
-  }
-
-  required init?(coder: NSCoder) {
-    fatalError("init(coder:) has not been implemented")
-  }
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
 
-//MARK: - Constraints
-
 extension LoadingCell {
-  func setConstraints() {
-    contentView.addSubview(activityIndicator)
+    func setConstraints() {
+        contentView.addSubview(activityIndicator)
 
-    activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
 
-    NSLayoutConstraint.activate([
-      activityIndicator.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-      activityIndicator.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)
-    ])
-  }
+        NSLayoutConstraint.activate([
+            activityIndicator.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            activityIndicator.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)
+        ])
+    }
 }

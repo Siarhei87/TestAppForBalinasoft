@@ -8,15 +8,15 @@
 import Foundation
 
 struct PageModel: Decodable {
-  let content: [Content]
-  let page: Int
-  let pageSize: Int
-  let totalElements: Int
-  let totalPages: Int
+    let content: [Content]
+    let page: Int
+    let pageSize: Int
+    let totalElements: Int
+    let totalPages: Int
 }
 
 struct Content: Decodable {
-  let id: Int
-  let name: String
-  let image: String?
+    let id: Int
+    let name: String
+    let image: String?
 }

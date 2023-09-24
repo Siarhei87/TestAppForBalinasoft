@@ -9,5 +9,5 @@ import Foundation
 import UIKit
 
 protocol BuilderProtocol {
-  static func createPhotoVCModule() -> UIViewController
+    static func createPhotoVCModule() -> UIViewController
 }
